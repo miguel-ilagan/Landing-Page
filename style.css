@@ -1,0 +1,109 @@
+/* Global styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header styles */
+.header {
+  height: 70px;
+  background: #1F2937;
+  color: #F9FAF8;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: 900;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  /* align-items: center; */
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 0;
+  color: #E5E7EB;
+}
+
+/* Page advert styles */
+.page_advert {
+  display: flex;
+  background: #1F2937;
+  color: #F9FAF8;
+}
+
+#advert_main {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900px;
+}
+
+#advert_secondary {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+button {
+  background: #3882F6;
+  color: #E5E7EB;
+}
+
+#city_image {
+  height: 200px;
+  width:400px;
+}
+
+/* Page content styles */
+.page_content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content_heading {
+  font-size: 36px;
+  color: #1F2937;
+  weight: 900px;
+}
+
+.card {
+  border: 1px solid #eee;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  border-radius: 4px;
+  padding: 16px;
+  width: 300px;
+}
+
+.container {
+  padding: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+/* Footer styles */
+.footer {
+  height: 72px;
+  background: #eee;
+  color: darkmagenta;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
